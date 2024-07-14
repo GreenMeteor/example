@@ -1,0 +1,21 @@
+{
+    "id": "example",
+    "version": "1.0.0",
+    "name": "Example",
+    "description": "Display example widget.",
+    "class": "humhub\\modules\\chatter\\plugins\\example\\Plugin",
+    "humhub": {
+        "minVersion": "1.16.0"
+    },
+    "keywords": ["example", "plugin"],
+    "homepage": "https://greenmeteor.net/",
+    "issues": "https://github.com/GreenMeteor/example/issues",
+    "authors": [
+        {
+            "name": "Green Meteor",
+            "email": "hello@greenmeteor.net",
+            "homepage": "https://greenmeteor.net",
+            "role": "Owner"
+        }
+    ]
+}
