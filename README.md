@@ -31,16 +31,25 @@ This example plugin displays an example widget on the forums of any Chatter Foru
 ## Development
 
 ### File Structure
-```
-example/
-├── assets/
-├── controllers/
-├── models/
-├── views/
-├── Plugin.php
-├── config.php
-├── plugin.json
-└── README.md
+```mermaid
+graph TD
+    A[example] --> B[assets]
+    A --> C[controllers]
+    A --> D[models]
+    A --> E[views]
+    A --> F[Plugin.php]
+    A --> G[config.php]
+    A --> H[plugin.json]
+    A --> I[README.md]
+
+    B -->|"CSS, JS, images"| B1[Static files]
+    C -->|"Action handlers"| C1[Controller classes]
+    D -->|"Data structures"| D1[Model classes]
+    E -->|"Templates"| E1[View files]
+    F -->|"Main plugin class"| F1[Plugin logic]
+    G -->|"Configuration"| G1[Plugin settings]
+    H -->|"Metadata"| H1[Plugin information]
+    I -->|"Documentation"| I1[Usage instructions]
 ```
 
 ## Contributing
